@@ -51,4 +51,4 @@ nnoremap lr gd[{V%::s/<C-R>///gc<left><left><left>
 
 " save ctrl-s
 nnoremap <C-s> :update<CR>
-inoremap <C-s> <Esc>:update<CR>a
+inoremap <C-s> <Esc>:update<CR>

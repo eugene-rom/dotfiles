@@ -1,5 +1,3 @@
 {
   "clangd.arguments": ["--background-index", "--clang-tidy"],
-  "clangd.inlayHints.enable": true,
-  "clangd.inlayHints.typeHints": true
 }
