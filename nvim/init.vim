@@ -27,6 +27,7 @@ set showtabline=2
 
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#formatter = 'default'
+let g:airline_theme='my_theme'
 
 lua require('scrollbar').setup()
 " lua require('gitsigns').setup()

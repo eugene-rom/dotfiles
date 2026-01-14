@@ -156,6 +156,3 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" Включить отображение типов для auto ---- не работает в nvim 0.9
-" hi CocInlayHint ctermfg=242  " Серый цвет для подсказок в 256-цветах
-" autocmd CursorHold * silent call CocActionAsync('showSignatureHelp')

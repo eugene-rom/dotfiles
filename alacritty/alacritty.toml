@@ -1,0 +1,40 @@
+[env]
+TERM="xterm-256color"
+
+[font]
+size = 12
+normal = { family = "Noto Mono", style = "Regular" }
+
+[window]
+padding = { x = 2, y = 2 }
+opacity = 0.96
+decorations_theme_variant = "Light"
+resize_increments = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+foreground = "#D0CFCC"
+#background = "#171421"
+background = "#000000"
+
+[colors.normal]
+black = "#171421"
+red = "#C01C28"
+green = "#26A269"
+yellow = "#cecb00"
+blue = "#12488B"
+magenta = "#A347BA"
+cyan = "#1A91A3"
+white = "#D0CFCC"
+
+[colors.bright]
+black = "#5E5C64"
+red = "#F66151"
+green = "#33DA7A"
+yellow = "#E9AD0C"
+blue = "#2A7BDE"
+magenta = "#C061CB"
+cyan = "#23B7CE"
+white = "#ffffff"
