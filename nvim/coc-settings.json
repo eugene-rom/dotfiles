@@ -1,3 +1,4 @@
 {
   "clangd.arguments": ["--background-index", "--clang-tidy"],
+  "inlayHint.enable": true,
 }

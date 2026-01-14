@@ -23,7 +23,9 @@ set autoindent
 set clipboard=unnamedplus
 set nowrap
 set showtabline=2
-" set termguicolors
+set notermguicolors
+
+colorscheme vim
 
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#formatter = 'default'
@@ -57,7 +59,7 @@ inoremap <C-s> <Esc>:update<CR>
 " auto trim trailing spaces on save
 lua << EOF
   vim.api.nvim_create_autocmd("BufWritePre", {
-    pattern = "*",
+    pattern = { "*.h", "*.c", "*.cc", "*.cpp", "*.java" },
     callback = function()
       local save_cursor = vim.fn.getpos(".")
 	  vim.cmd([[%s/\s\+$//e]])

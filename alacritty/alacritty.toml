@@ -6,6 +6,7 @@ size = 12
 normal = { family = "Noto Mono", style = "Regular" }
 
 [window]
+dimensions = { columns = 128, lines = 36 }
 padding = { x = 2, y = 2 }
 opacity = 0.96
 decorations_theme_variant = "Light"
@@ -13,6 +14,7 @@ resize_increments = true
 
 [colors]
 draw_bold_text_with_bright_colors = true
+indexed_colors = [{ index = 121, color = "#23ca6a" },]
 
 [colors.primary]
 foreground = "#D0CFCC"
