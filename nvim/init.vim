@@ -26,6 +26,7 @@ set showtabline=2
 set notermguicolors
 
 colorscheme vim
+highlight Pmenu ctermfg=252 ctermbg=236 guifg=#d0d0d0 guibg=#303030  " no magenta backround please
 
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#formatter = 'default'
