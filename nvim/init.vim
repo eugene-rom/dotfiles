@@ -27,6 +27,8 @@ set notermguicolors
 
 colorscheme vim
 highlight Pmenu ctermfg=252 ctermbg=236 guifg=#d0d0d0 guibg=#303030  " no magenta backround please
+highlight PmenuSel ctermfg=252 ctermbg=6 guifg=#d0d0d0 guibg=DarkCyan
+highlight CocMenuSel ctermfg=252 ctermbg=24 guifg=#d0d0d0 guibg=DarkCyan
 
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#formatter = 'default'
